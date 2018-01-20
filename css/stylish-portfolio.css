@@ -86,7 +86,7 @@ h6 {
       height: 100vh; }
       .masthead h1 {
         font-size: 5.5rem; } }
-
+        
 /* Side Menu */
 #sidebar-wrapper {
   position: fixed;
@@ -289,4 +289,4 @@ a {
   color: #1D809F !important; }
 
 .text-secondary {
-  color: #ecb807 !important; }
+  color:orange !important; }

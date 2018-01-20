@@ -23,9 +23,12 @@
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
     <style>
-    .logo1{
-      color: white;
-    }
+      .mystyle
+      {
+        color: white;
+        text-align: center;
+        text-shadow: 8px 8px 16px #000000;
+      }
     </style>
 
   </head>
@@ -61,8 +64,8 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <h1 class="mb-1"><span class="logo1">N</span>ithin's <span class="logo1">D</span>esign <span class="logo1">C</span>ompany</h1>
-        <h3 class="mb-5">
+        <h1 class="mb-1 mystyle">Nithin's Design Company</h1>
+        <h3 class="mb-5 mystyle">
           <em>Bring Your Dream to Life</em>
         </h3>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Know More</a>
@@ -135,8 +138,8 @@
 
     <!-- Callout -->
     <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome
+      <div class="container text-center text-white">
+        <h2 class="mx-auto mb-5 mystyle">Welcome
           <em>your</em>
         website with us!</h2>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Shall We Begin?</a>
@@ -153,10 +156,12 @@
         <div class="row no-gutters">
           <div class="col-lg-6">
             <a class="portfolio-item">
-              <span class="caption">
+              <span class="caption caption-content">
                 <span class="caption-content">
-                  <h2>trust</h2>
-                  <p class="mb-0">The trust you bestow upon us is equally reciprocated, if not more!</p>
+                    <span class="card" style="padding: 10px; background:rgba(0, 0, 0, 0.8);">
+                      <h2>trust</h2>
+                      <p class="mb-0">The trust you bestow upon us is equally reciprocated, if not more!</p>
+                    </span>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
@@ -166,8 +171,10 @@
             <a class="portfolio-item">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Integrity</h2>
-                  <p class="mb-0">Honesty is the best policy!</p>
+                    <span class="card" style="padding: 10px; background:rgba(0, 0, 0, 0.75);">
+                      <h2>Integrity</h2>
+                      <p class="mb-0">Honesty is the best policy!</p>
+                    </span>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
@@ -177,24 +184,28 @@
             <a class="portfolio-item">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>customer satisfaction</h2>
-                  <p class="mb-0">Your satisfaction is of utmost importance to us!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Commitment</h2>
-                  <p class="mb-0">We are committed towards delivering you the best!</p>
+                    <span class="card" style="padding: 10px; background:rgba(0, 0, 0, 0.75); margin-bottom:20%">
+                      <h2>Commitment</h2>
+                      <p class="mb-0">We are committed towards delivering you the best!</p>
+                    </span>
                 </span>
               </span>
               <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
             </a>
           </div>
+          <div class="col-lg-6">
+              <a class="portfolio-item">
+                <span class="caption">
+                  <span class="caption-content">
+                      <span class="card" style="padding: 10px; background:rgba(0, 0, 0, 0.75);">
+                        <h2>customer satisfaction</h2>
+                        <p class="mb-0">Your satisfaction is of utmost importance to us!</p>
+                      </span>
+                  </span>
+                </span>
+                <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+              </a>
+            </div>
         </div>
       </div>
     </section>
@@ -203,8 +214,8 @@
     <section id="contact" class="content-section bg-primary text-white">
       <div class="container text-center">
         <h2 class="mb-4">Contact Us.</h2>
-        <a href="tel:+918919376842" class="btn btn-xl btn-light mr-4"><span class="fa fa-phone fa-2x"></span> (+91) 8919376842</a>
-        <a href="https://api.whatsapp.com/send?phone=918919376842" class="btn btn-xl btn-dark"><span class="fa fa-whatsapp fa-2x"></span> (+91) 8919376842</a>
+        <a href="tel:+918919376842" class="btn btn-xl btn-light"><span class="fa fa-phone fa-2x"></span> (+91) 8919376842</a>
+        <a href="https://api.whatsapp.com/send?phone=918919376842" class="btn btn-xl btn-success"><span class="fa fa-whatsapp fa-2x"></span> (+91) 8919376842</a>
       </div>
     </section>
 
@@ -220,12 +231,12 @@
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://www.linkedin.com/in/pvnithinreddy">
+            <a class="social-link rounded-circle bg-primary text-white mr-3" target="_blank" href="https://www.linkedin.com/in/pvnithinreddy">
               <i class="icon-social-linkedin"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" target="_blank" href="https://www.instagram.com/the.dreamer.boy/">
+            <a class="social-link rounded-circle bg-danger text-white" target="_blank" href="https://www.instagram.com/the.dreamer.boy/">
               <i class="icon-social-instagram"></i>
             </a>
           </li>
